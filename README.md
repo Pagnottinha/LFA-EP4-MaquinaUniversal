@@ -29,17 +29,17 @@ Assim, a entrada da MTU é a combinação da Máquina de Turing que será lida m
 
 Para reconhecer a*b+ teríamos que codificar desta maneira:
 
-Estados
+**Estados**
 
 - inicial “a”
 - final de aceitação “b”
 
-Símbolos:
+**Símbolos:**
 
 - a: sc
 - b: scc
 
-Regras de transição
+**Regras de transição**
 
 - (fa,sc) → (fa,sc,d)
 - (fa,scc) → (fb,scc,d)
