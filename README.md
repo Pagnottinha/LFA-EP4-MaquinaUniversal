@@ -9,9 +9,9 @@ Em resumo, a Máquina de Turing Universal é uma poderosa ferramenta teórica qu
 
 Assim, a definição da linguagem da MTU é:
 
-L = \{C(M)w \in \Sigma^*| w \in L(M)\} 
+L = {C(M)w ϵ ∑*|w ϵ L(M)} 
 
-Tal que C(M) é codificação de uma MT com fita limitada com alfabeto de entrada $\Sigma$, como cadeia sobre o próprio alfabeto $\Sigma$. $w \in \Sigma^*$ é uma cadeia de entrada qualquer para M.
+Tal que C(M) é codificação de uma MT com fita limitada com alfabeto de entrada ∑, como cadeia sobre o próprio alfabeto ∑. w ϵ ∑* é uma cadeia de entrada qualquer para M.
 
 Encoding da máquina:
 
@@ -27,7 +27,7 @@ Símbolo branco: “_”
 
 Assim, a entrada da MTU é a combinação da Máquina de Turing que será lida mais a sua cadeia de entrada. Exemplo:
 
-Para reconhecer  $a^*b^+$ teríamos que codificar desta maneira:
+Para reconhecer a*b+ teríamos que codificar desta maneira:
 
 Estados
 
@@ -57,8 +57,8 @@ Foi feita uma máquina de MTU que reconheça uma linguagem que contenha outra MT
 
 Códigos de Teste utilizados:
 
-1) MT que reconhece uma Linguagem Livre de Contexto $a^nb^n$.
+1) MT que reconhece uma Linguagem Livre de Contexto a^n b^n.
 
-2) MT que reconhece uma Linguagem Sensível ao Contexto $a^nb^nc^n$. 
+2) MT que reconhece uma Linguagem Sensível ao Contexto a^n b^n c^n. 
 
 3) MT que faz multiplicações a x b. Exemplo: 3x2 = 6 ⇒ aaabb ⇒ cccccc
