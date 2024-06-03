@@ -13,7 +13,7 @@ L = {C(M)w ϵ ∑*|w ϵ L(M)}
 
 Tal que C(M) é codificação de uma MT com fita limitada com alfabeto de entrada ∑, como cadeia sobre o próprio alfabeto ∑. w ϵ ∑* é uma cadeia de entrada qualquer para M.
 
-Encoding da máquina:
+## Encoding da máquina:
 
 Estados internos, não-aceitação: “fa”, “faa”, “faaa”,… 
 
