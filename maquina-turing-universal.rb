@@ -8,7 +8,7 @@ class MTU
   end
 
   def processar(entrada)
-    @fita = "$" + entrada + "_" * entrada.size * 3 + " " # fita semi-infinita, virtual
+    @fita = "$" + entrada + "_" * entrada.size + " " # fita semi-infinita, virtual
     estado_leitura = ""
     simbolo_leitura = ""
     estado_destino = ""

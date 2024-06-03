@@ -10,7 +10,7 @@ q6 = "faaaaaaa"
 q7 = "faaaaaaaa"
 q8 = "faaaaaaaaa"
 q9 = "faaaaaaaaaa"
-q10 = "faaaaaaaaaaa"
+q10 = "faaaaaaaaaa"
 
 ## estados finais
 ## fb...
@@ -59,5 +59,5 @@ def linker
 end
 
 def codificacao_cadeia
-  "#{@s}#{@a}#{@a}#{@b}#{@b}#{@b}#{@s}"
+  "#{@s}#{@a}#{@a}#{@a}#{@b}#{@b}#{@b}#{@s}"
 end
